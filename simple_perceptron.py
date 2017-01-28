@@ -23,7 +23,7 @@ training_data = [
 
 # print training_data
 
-# some random initail weights
+# some random initial weights
 w = random.rand(3)
 
 # print w
@@ -40,8 +40,9 @@ for i in xrange(n):
     w += eta * error * x
 
 
-#w <- final weights
-#inputs
+# w <- final weights
+
+# Test
 for x, _ in training_data:
     # print x
     result = dot(x, w)

@@ -11,7 +11,7 @@ from pylab import plot, ylim
 unit_step = lambda x: 0 if x < 0 else 1
 
 
-# trainind data as :  x1 x2(inputs)  b(bias) O(output)
+# training data as :  x1 x2(inputs)  b(bias) O(output)
 
 
 training_data = [
